@@ -1,0 +1,6 @@
+export const stripe = {
+  charges: {
+    // Mock Promise olduğundan dolayı mockResolvedValue yaptık
+    create: jest.fn().mockResolvedValue({})
+  }
+};
