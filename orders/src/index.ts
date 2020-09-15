@@ -10,6 +10,7 @@ import { PaymentCreatedListener } from './events/listeners/payment-created-liste
 
 // Start the application and listen the port 3000
 const start = async () => {
+  console.log('Starting....');
 
   // Environment Parameter Checks
   if (!process.env.JWT_KEY) {
